@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+{% seo %}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  color: #333;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style:normal;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:300;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  background: #04aa6d;
+  color: #fff;
+  width: 100%;
+  margin: 15px auto;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  background: #04aa6d;
+  color: #fff;
+  width: 20%;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  background: #fff;
+  color: #555;
+  width: 80%;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<h2>Responsive Two Column Layout</h2>
+<p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p>
+
+<div class="row">
+<div class="column">
+  <div class="column1">
+  <img src="https://d1aettbyeyfilo.cloudfront.net/girlmeetsbody/725781_1526549981053joe-gardner-149699.jpg" style="width:100%">
+    <h3 style="text-align: center;">Name</h3>
+    <p style="padding: 10px;">Some text..</p>
+  </div>
+  <div class="column2" style="padding: 10px;">
+    <h3>Column 2 h3</h3>
+    <p>Some text..</p>
+    <h4>Column 2 h4</h4>
+    <p>Some text..</p>
+    <h5>Column 2 h4</h5>
+    <p>Some text..</p>
+  </div>
+</div>
+</div>
+<footer class="footer">
+2021 Resume Jekyll Theme
+</footer>
+</body>
+</html>
