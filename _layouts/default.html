@@ -1,19 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
 {% seo %}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-<link rel="stylesheet" href="/style.css">
+<style>
+ {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  max-width: 1080px;
+  color: #333;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-style:normal;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:300;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  background: #00b2f8;
+  color: #fff;
+  width: 100%;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  background: #00b2f8;
+  color: #fff;
+  width: 25%;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  background: #fff;
+  color: #555;
+  width: 75%;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: #999;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    padding: 0px;
+  }
+  .column1 {
+    width: 30%;
+  }
+  .column2 {
+    width: 70%;
+  }
+} 
+
+@media screen and (max-width: 860px) {
+  body {
+    padding: 0px;
+  }
+  .column1 {
+    width: 35%;
+  }
+  .column2 {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    padding: 0px;
+  }
+  .column1 {
+    width: 40%;
+  }
+  .column2 {
+    width: 60%;
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-<header>
-</header>
 {{ content }}
 <footer class="footer">
-2021 Resume Jekyll Theme
+2021 Mohamad Rido
 </footer>
 </body>
 </html>
