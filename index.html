@@ -5,35 +5,30 @@ layout: default
 <div class="column">
   <div class="column1">
   <img src="/profile.jpg" style="width:100%">
-    <h2 style="text-align: center;">Name</h2>
+<!-- # Column 1 -->
+{% for item in site.data.main.about %}
+<h2 style="text-align: center;">{{item.name}}</h2>
+<p>item.About</p>
 <div style="padding: 20px;">
 <i class="fab fa-linkedin"></i> LinkedIn<br/>
 <i class="fab fa-github"></i> GitHub<br/>
 <i class="fab fa-telegram"></i> Telegram<br/>
-<i class="fa fa-envelope"></i> Email<br/>
-<i class="fa fa-globe"></i> Website<br/>
-<i class="fa fa-phone"></i> Phone<br/>
+<i class="fa fa-envelope"></i> mohamad.rido@yandex.com<br/>
+<i class="fa fa-globe"></i> mohamadrido.com<br/>
+<i class="fa fa-phone"></i> +62 812 2951 6757<br/>
 </div>
-<h3 style="padding: 20px;">Address</h3>
-<p style="padding: 20px;">
-  Central Java, Indonesia.<br/>
-</p>
-<h3 style="padding: 20px;">Education</h3>
-<p style="padding: 20px;">
-  Private Vocational High School<br/>
-</p>
-  </div>
-  <div class="column2" style="padding: 20px;">
-<!-- # Column 1 -->
+{% endfor %}
+
 {% for item in site.data.main.about %}
-<h3>{{item.title}}</h3>
+<p>item.title</p>
 <p>item.description</p>
 <p>item.graduate</p>
 <p>item.year</p>
 <p>item.program</p>
 <p>item.competence</p>
 {% endfor %}
-
+  </div>
+  <div class="column2" style="padding: 20px;">
 <!-- # Column 2 -->
 {% for item in site.data.main.practical-work %}
 <h3>{{item.title}}</h3>
