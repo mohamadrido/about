@@ -43,6 +43,15 @@ a:hover {
   text-decoration: none;
 }
 
+.container2 {
+  overflow: hidden;
+}
+
+.container2 a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 .container-right {
   float: right;
   color: #999;
