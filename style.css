@@ -43,6 +43,20 @@ a:hover {
   text-decoration: none;
 }
 
+.container1 {
+  overflow: hidden;
+}
+
+.container1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container1 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .container2 {
   overflow: hidden;
 }
