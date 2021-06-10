@@ -91,7 +91,7 @@ a:hover {
   float: left;
   background: #00b2f8;
   color: #fff;
-  width: 25%;
+  width: 30%;
   height: auto; /* Should be removed. Only for demonstration */
 }
 
@@ -101,7 +101,7 @@ a:hover {
   padding: .5em;
   background: #fff;
   color: #555;
-  width: 75%;
+  width: 70%;
   height: auto; /* Should be removed. Only for demonstration */
 }
 
