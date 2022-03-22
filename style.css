@@ -39,8 +39,13 @@ a:hover {
 }
 
 .container a {
-  float: left;
+  color: #007bff;
   text-decoration: none;
+}
+
+.container a:hover {
+  color: #007bff;
+  text-decoration: underline;
 }
 
 .container1 {
