@@ -91,7 +91,7 @@ a:hover {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  background: #00b2f8;
+  background: linear-gradient(to top,#defeffff 0%,#00b2f8 56%,#00b2f8 130%);
   color: #fff;
   width: 100%;
 }
@@ -100,7 +100,7 @@ a:hover {
 /* Create two equal columns that floats next to each other */
 .column1 {
   float: left;
-  background: #00b2f8;
+  background: linear-gradient(to top,pink 10%,#00b2f8 56%,#00b2f8 13%);
   color: #fff;
   width: 25%;
   height: auto; /* Should be removed. Only for demonstration */
