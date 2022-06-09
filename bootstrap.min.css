@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .link {
   color: #555;
-  font-weight: 300;
+  font-weight: 500;
   padding:8px;
   border-radius:4px;
   text-decoration: none;
@@ -37,18 +37,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   cursor:pointer;
   display:inline-block;
   border:none;
+  margin-bottom: 4px;
   
 }
 .link:hover {
   color: #007bff;
-  font-weight: 300;
+  font-weight: 500;
   padding:8px;
   border-radius:4px;
   text-decoration: underline;
-  background:#fefefe;
+  background:#dedede;
   cursor:pointer;
   display:inline-block;
   border:none;
+  margin-bottom: 4px;
 }
 a {
   color: #333;
