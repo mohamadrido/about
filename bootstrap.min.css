@@ -27,7 +27,7 @@ ul li {
   font-weight: 900;
   padding:8px 0 8px 0;
 }
-ul li a {
+.li a {
   color: #555;
   font-weight: 300;
   background:#f0f0f0;
@@ -35,7 +35,7 @@ ul li a {
   border-radius:4px;
   text-decoration: none;
 }
-ul li a:hover {
+.li a:hover {
   color: #007bff;
   font-weight: 300;
   background:#efefef;
