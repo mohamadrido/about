@@ -103,6 +103,20 @@ a:hover {
   text-decoration: underline;
 }
 
+.container3 {
+  overflow: hidden;
+}
+
+.container3 a {
+  color: #555;
+  text-decoration: none;
+}
+
+.container3 a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 .container-right {
   float: right;
   color: #999;
