@@ -23,11 +23,11 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight:500;
 }
-li {
+ul li {
   font-weight: 900;
   padding:8px 0 8px 0;
 }
-ul a {
+ul li a {
   color: #555;
   font-weight: 300;
   background:#f0f0f0;
@@ -35,7 +35,7 @@ ul a {
   border-radius:4px;
   text-decoration: none;
 }
-ul a:hover {
+ul li a:hover {
   color: #007bff;
   font-weight: 300;
   background:#efefef;
