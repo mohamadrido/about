@@ -193,4 +193,4 @@ html {scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;}
 ::-webkit-scrollbar-track-piece {background: #f1f1f1;}
 /*# sourceMappingURL=bootstrap.css.map */
 img {width: 100%;}
-.icon {width: 16px;vertical-align:middle;margin-right:.25em;}
+.icon {width: 16px;vertical-align:text-bottom;margin-right:.25em;}
