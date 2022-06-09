@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .link {
   color: #555;
   font-weight: 500;
-  padding:8px;
+  padding:4px 8px;
   border-radius:4px;
   text-decoration: none;
   background:#f0f0f0;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .link:hover {
   color: #007bff;
   font-weight: 500;
-  padding:8px;
+  padding: 4px 8px;
   border-radius:4px;
   text-decoration: underline;
   background:#dedede;
