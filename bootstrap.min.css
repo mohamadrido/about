@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   padding:8px;
   border-radius:4px;
   text-decoration: none;
+  background:#f0f0f0;
+  cursor:pointer;
+  display:inline-block;
+  border:none;
+  
 }
 .link:hover {
   color: #007bff;
@@ -40,6 +45,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   padding:8px;
   border-radius:4px;
   text-decoration: underline;
+  background:#fefefe;
+  cursor:pointer;
+  display:inline-block;
+  border:none;
 }
 a {
   color: #333;
@@ -182,4 +191,4 @@ html {scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;}
 ::-webkit-scrollbar-track-piece {background: #f1f1f1;}
 /*# sourceMappingURL=bootstrap.css.map */
 img {width: 100%;}
-.icon {width: 16px;vertical-align:text-top;margin-right:.25em;}
+.icon {width: 16px;vertical-align:middle;margin-right:.25em;}
