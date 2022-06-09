@@ -23,6 +23,26 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight:500;
 }
+li {
+  font-weight: 900;
+  padding:8px 0 8px 0;
+}
+li a {
+  color: #555;
+  font-weight: 300;
+  background:#f0f0f0;
+  padding:8px;
+  border-radius:4px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #007bff;
+  font-weight: 300;
+  background:#efefef;
+  padding:8px;
+  border-radius:4px;
+  text-decoration: underline;
+}
 a {
   color: #333;
   text-decoration: none;
@@ -150,4 +170,4 @@ html {scrollbar-width: thin; scrollbar-color: #888 #f1f1f1;}
 ::-webkit-scrollbar-track-piece {background: #f1f1f1;}
 /*# sourceMappingURL=bootstrap.css.map */
 img {width: 100%;}
-.icon {width: 12px;}
+.icon {width: 12px;vertical-align:text-top;margin-right:.25em;}
