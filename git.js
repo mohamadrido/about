@@ -32,15 +32,14 @@ function backtrack_link(){window.open('https://backtrack-linux.org');}
 function slackware_link(){window.open('http://slackware.com');}
 
 /*! Windows Software */
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
-function linux_link(){window.open('https://linux.org');}
+function android_link(){window.open('https://developer.android.com/studio');}
+function audacity_link(){window.open('https://www.audacityteam.org');}
+function mf8_link(){window.open('https://en.wikipedia.org/wiki/Adobe_Flash');}
+function ap7_link(){window.open('https://adobe.fandom.com/wiki/Adobe_Photoshop_7');}
+function cd12_link(){window.open('https://web.archive.org/web/20050306121213/http://www.corel.com/servlet/Satellite?pagename=Corel%2FCompany%2FPressRoom%2FPressRelease&id=1044393442588&prid=1047022861547');}
+function uvs8_link(){window.open('https://en.wikipedia.org/wiki/Corel_VideoStudio');}
+function psu12_link(){window.open('https://en.wikipedia.org/wiki/Pinnacle_Studio');}
+function wmm2_link(){window.open('https://en.wikipedia.org/wiki/Windows_Movie_Maker');}
 
 /*! Windows System Operating */
 function xp_link(){window.open('https://support.microsoft.com/en-us/windows/windows-xp-support-has-ended-47b944b8-f4d3-82f2-9acc-21c79ee6ef5e');}
