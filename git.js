@@ -17,7 +17,7 @@ function html_link(){window.open('https://en.wikipedia.org/wiki/HTML5');}
 function css_link(){window.open('https://en.wikipedia.org/wiki/CSS');}
 function javascript_link(){window.open('https://javascript.com');}
 function jekyll_link(){window.open('https://jekyllrb.com');}
-function ruby_link(){window.open('https://ruby-lang.org');}
+function ruby_link(){window.open('https://www.ruby-lang.org');}
 
 
 /*! Linux System Operating */
