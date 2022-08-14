@@ -135,7 +135,7 @@ a:hover {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  background: linear-gradient(to top,#defeffff 0%,#00b2f8 56%,#00b2f8 130%);
+  background: linear-gradient(to top,#00f9ffff 0%,#00b2f8 56%,#00b2f8 130%);
   color: #fff;
   width: 100%;
 }
